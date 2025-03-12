@@ -771,11 +771,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 7eef10eb-cc81-4c43-b729-d1a241556b16
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Pong
+  organizationId: cvyd
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
