@@ -21,4 +21,12 @@ public class Actual_ball : MonoBehaviour
         Vector2 direction = new Vector2(xVelocity, yVelocity).normalized;
         rb.velocity = direction * startingSpeed;
     }
+
+    void FixedUpdate(){
+        rb.velocity = rb.velocity.normalized * startingSpeed;
+    }
+
+    void reset_position(){
+        
+    }
 }
