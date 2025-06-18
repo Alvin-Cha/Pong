@@ -10,7 +10,6 @@ public class game_manager : MonoBehaviour
     private int livesPlayer1 = 3;
     private int livesPlayer2 = 3;
 
-    // Called by Hitbox1
     public void LoseLifePlayer1()
     {
         livesPlayer1--;
@@ -22,11 +21,10 @@ public class game_manager : MonoBehaviour
         else if (livesPlayer1 == 0)
         {
             coin1.enabled = false;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Or trigger Game Over
+            SceneManager.LoadScene("winner2"); // Player 2 wins
         }
     }
 
-    // Called by Hitbox2
     public void LoseLifePlayer2()
     {
         livesPlayer2--;
@@ -38,7 +36,7 @@ public class game_manager : MonoBehaviour
         else if (livesPlayer2 == 0)
         {
             skull1.enabled = false;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Or Game Over for P2
+            SceneManager.LoadScene("winner1"); // Player 1 wins
         }
     }
 }
