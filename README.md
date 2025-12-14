@@ -12,7 +12,7 @@ Editor Version : 2021.3.xf1
 
 # Introduction
 
-Gravity Pong is a simple 2-player Pong-style game with a twist: **gravity**. Unlike classic Pong, players must jump to intercept the ball while managing limited health. The game focuses on timing, positioning, and fast reactions rather than complex mechanics.
+This Pong game is a simple 2-player Pong-style game with a twist: **gravity**. Unlike classic Pong, players must jump to intercept the ball while managing limited health. The game focuses on timing, positioning, and fast reactions rather than complex mechanics.
 
 # About
 
