@@ -1,13 +1,10 @@
 # Gravity Pong
 
-![Game Screenshot](Image%20and%20videos/poster.jpg)
+![Game Screenshot](https://github.com/Alvin-Cha/Pong/blob/main/Image%20and%20videos/Poster%20pong.jpg)
 
 ## Project Info
 
-Engine : Unity 2D  
-Editor Version : 2021.3.xf1  
-Game Type : Local 2 Player  
-Physics : Rigidbody2D with Gravity  
+Editor Version : 2021.3.xf1   
 
 # Developer & Contributions
 
@@ -35,7 +32,7 @@ The game features:
 
 # Gameplay
 
-![Gameplay Screenshot](Image%20and%20videos/gameplay.jpg)
+![Gameplay Screenshot](https://github.com/Alvin-Cha/Pong/blob/main/Image%20and%20videos/Gameplay.gif)
 
 # Game Objective
 
