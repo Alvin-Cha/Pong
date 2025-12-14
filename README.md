@@ -100,7 +100,7 @@ flowchart TB
 * Ball resets to center after each score
 * First player to lose all HP loses the game
 
-# Possible Improvements (Recommended)
+# Future Improvements
 
 * Add horizontal movement for paddles
 * Add UI for HP display
