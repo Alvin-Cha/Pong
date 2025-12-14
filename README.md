@@ -70,13 +70,17 @@ flowchart TB
 
 # Scripts and Features
 
-| Script Name          | Description                                                                  |
-| -------------------- | ---------------------------------------------------------------------------- |
-| **PlayerJump**       | Handles jumping logic using ground detection and Rigidbody2D physics.        |
-| **Player_movement1** | Controls Player 1 jump input and ground detection.                           |
-| **Player_movement2** | Controls Player 2 jump input and ground detection.                           |
-| **reset_on_hit**     | Detects when the ball hits a goal, reduces HP, and resets the ball position. |
-| **Scores**           | Tracks and manages both players’ scores and reset functionality.             |
+| Script Name                   | Description                                                                                                    |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Actual_ball**               | Controls ball initialization, random launch direction, constant speed enforcement, and gravity-based movement. |
+| **PlayerJump**                | Handles jumping logic using ground detection and Rigidbody2D physics.                                          |
+| **Player_movement1**          | Controls Player 1 jump input and ground detection.                                                             |
+| **Player_movement2**          | Controls Player 2 jump input and ground detection.                                                             |
+| **reset_on_hit**              | Detects when the ball hits a goal, reduces player HP, and resets the ball with a new direction.                |
+| **game_manager**              | Manages player lives (3 HP each), updates UI icons, and handles win conditions and scene transitions.          |
+| **Scores**                    | Tracks and manages both players’ scores and provides reset/debug functionality.                                |
+| **Guide**                     | Handles guide window visibility and simple mouse-based guide interactions.                                     |
+| **change_scene_after_second** | Automatically changes scenes after a set delay (used for winner screens or transitions).                       |
 
 # Controls
 
